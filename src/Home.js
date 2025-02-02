@@ -40,8 +40,8 @@ function Home() {
                 <p>Write, edit, and manage code effortlessly with a powerful, lightweight, and intuitive experience. Built for speed and efficiency, it ensures a smooth and distraction-free workflow, helping you focus on what truly matters—writing great code.</p>
 
                 <div className={styles.buttons}>
-                    <a target='_blank' href='https://github.com/7777Satish'><FaGithub /> Open Source</a>
-                    <button><FaDownload /> Download</button>
+                    <a className={styles.a} rel='noreferrer' target='_blank' href='https://github.com/7777Satish'><FaGithub /> Open Source</a>
+                    <button><FaDownload /><a href='https://editor-codedesk.vercel.app'>Download</a></button>
                 </div>
             </div>
             <div className={styles.video}>
@@ -231,8 +231,8 @@ function Home() {
             <div className={styles.text}>
                 <h1>Features of tomorrow.<br />Available today.</h1>
                 <div className={styles.buttons}>
-                    <a target='_blank' href='https://github.com/7777Satish'><FaGithub /> Open Source</a>
-                    <button><FaDownload /> Download</button>
+                    <a className={styles.a} target='_blank' href='https://github.com/7777Satish'><FaGithub /> Open Source</a>
+                    <button><FaDownload /><a href='https://editor-codedesk.vercel.app'>Download</a></button>
                 </div>
             </div>
         </section>

@@ -47,7 +47,7 @@ header .text .buttons{
     padding:  20px 0 15px 0;
 }
 
-header .text .buttons a{
+header .text .buttons .a{
     font-family: 'Poppins', serif;
     font-size: 15px;
     padding: 6px 12px;
@@ -62,7 +62,7 @@ header .text .buttons a{
 }
 
 
-header .text .buttons a svg{
+header .text .buttons .a svg{
     font-size: larger;
 }
 
@@ -80,6 +80,11 @@ header .text .buttons button{
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+header .text .buttons button a{
+    color: inherit;
+    text-decoration: none;
 }
 
 header .video{
@@ -454,7 +459,7 @@ header .video .overlay {
     padding:  20px 0 15px 0;
 }
 
-.ending .text .buttons a{
+.ending .text .buttons .a{
     font-family: 'Poppins', serif;
     font-size: 15px;
     padding: 6px 12px;
@@ -469,7 +474,7 @@ header .video .overlay {
 }
 
 
-.ending .text .buttons a svg{
+.ending .text .buttons .a svg{
     font-size: larger;
 }
 
@@ -487,6 +492,11 @@ header .video .overlay {
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+.ending .text .buttons button a{
+    color: inherit;
+    text-decoration: none;
 }
 
 /* ===== Ending End ===== */
