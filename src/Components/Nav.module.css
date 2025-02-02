@@ -1,0 +1,93 @@
+.nav{
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.4);
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    z-index: 100;
+}
+
+.nav .left{
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    color: #d5d5d5;
+}
+
+.nav .left h1{
+    font-size: medium;
+    color: #d5d5d5;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav .left h1 img{
+    height: 40%;
+}
+
+.nav .left ul{
+    display: flex;
+    gap: 17px;
+    color: #e1e1e1;
+    font-weight: 600;
+    font-family: 'Montserrat', serif;
+    list-style: none;
+    font-size: small;
+}
+
+.nav .left ul a{
+    color: inherit !important;
+    text-decoration: none;
+}
+
+.nav .right{
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #d5d5d5;
+}
+
+.nav .right a{
+    color: rgb(51, 51, 51);
+    font-family: 'Poppins', serif;
+    font-size: small;
+    font-size: 800;
+    text-decoration: none;
+    background: #eeeeee;
+    padding: 6px 8px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.nav .right a svg{
+    font-size: larger;
+}
+
+.nav .right button{
+    border: none;
+    outline: none;
+    background: rgb(51, 51, 51);
+    color: #eee;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}

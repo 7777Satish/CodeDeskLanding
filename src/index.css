@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background: #121212;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 7px;
+    height: 7px;
+    background: #2de9b4;
+}
