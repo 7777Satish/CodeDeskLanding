@@ -24,3 +24,23 @@ body{
     height: 7px;
     background: #2de9b4;
 }
+
+
+@media only screen and (max-width: 900px) {
+    body *{
+        display: none;
+    }
+    body::before{
+        content: "Open in a bigger screen";
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Poppins', serif;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
