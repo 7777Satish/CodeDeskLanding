@@ -19,7 +19,6 @@ The official landing page for CodeDesk, a powerful and intuitive code editor des
     git clone https://github.com/7777Satish/codedesk-landing.git
     cd codedesk-landing
     ```
-
 2. **Install Dependencies**
 
     ```bash
