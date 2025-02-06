@@ -1,0 +1,118 @@
+header{
+    padding: 120px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .cards{
+    width: 75vw;
+    display: grid;
+    gap: 70px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: start;
+    justify-content: center;
+}
+
+header .cards .card:first-child{
+    flex-direction: row;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    gap: 40px;
+    align-items: center;
+    font-size: larger;
+}
+
+header .cards .card:first-child .image{
+    width: 150%;
+}
+
+header .cards .card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+header .cards .card .image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+header .cards .card .image img{
+    width: 100%;
+    height: auto;
+}
+
+header .cards .card .desc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header .cards .card .desc .tags{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #bbb;
+    font-weight: 600;
+    font-size: small;
+}
+
+header .cards .card .desc .tag{
+    padding: 4px 10px;
+    background: transparent;
+    border: 1px solid #22c597;
+    color: #22c597;
+    /* border: 1px solid #bbb;
+    color: #bbb; */
+    word-break: nowrap;
+    border-radius: 15px;
+}
+
+header .cards .card  .desc h1{
+    font-size: 2em;
+    font-family: 'Montserrat', serif;
+    color: #d6d6d6;
+}
+
+header .cards .card  .desc p{
+    font-size: medium;
+    font-family: 'Poppins', serif;
+    color: #7a7a7a;
+}
+
+header .cards .card .desc .author{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    color: #cacaca;
+    font-weight: 600;
+    font-size: small;
+}
+
+header .cards .card .desc .author .Aimage{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+header .cards .card .desc .author .Aimage img{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

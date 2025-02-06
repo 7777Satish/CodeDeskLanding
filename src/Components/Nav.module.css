@@ -35,6 +35,17 @@
     height: 40%;
 }
 
+.nav .left h1 a{
+    text-decoration: none;
+    font-size: medium;
+    color: #d5d5d5;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .nav .left ul{
     display: flex;
     gap: 17px;

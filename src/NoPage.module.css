@@ -1,0 +1,31 @@
+.header{
+    min-height: 500px;
+}
+
+.header .text{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+
+.header .text h1{
+    font-size: xxx-large;
+}
+
+.header .text button{
+    background: rgb(56, 194, 127);
+    color: #e6e6e6;
+    padding: 5px 15px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', serif;
+    font-size: large;
+}
+
+.header .text button a{
+    color: inherit;
+    text-decoration: none;
+}
